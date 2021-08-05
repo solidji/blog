@@ -59,11 +59,11 @@ Some new possibilities include loading components directly in the mdx file using
 For example, the following jsx snippet can be used directly in an MDX file to render the page title component:
 
 ```js
-import PageTitle from './PageTitle.js'
+import PageTitle from '@/components/PageTitle'
 ;<PageTitle> Using JSX components in MDX </PageTitle>
 ```
 
-import PageTitle from './PageTitle.js'
+import PageTitle from '@/components/PageTitle'
 
 <PageTitle> Using JSX components in MDX </PageTitle>
 
@@ -204,7 +204,7 @@ Here's how an author markdown file might looks like:
 
 ```md:default.md
 ---
-name: Tails Azimuth
+name: SolidJi
 avatar: /static/images/avatar.png
 occupation: Professor of Atmospheric Science
 company: Stanford University

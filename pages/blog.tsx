@@ -1,9 +1,11 @@
-import { getAllFilesFrontMatter } from '@/lib/mdx'
+import { ComponentProps } from 'react'
+
+import { GetStaticProps, InferGetStaticPropsType } from 'next'
+
+import { PageSeo } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import ListLayout from '@/layouts/ListLayout'
-import { PageSeo } from '@/components/SEO'
-import { GetStaticProps, InferGetStaticPropsType } from 'next'
-import { ComponentProps } from 'react'
+import { getAllFilesFrontMatter } from '@/lib/mdx'
 
 export const POSTS_PER_PAGE = 5
 
@@ -34,7 +36,7 @@ export default function Blog({
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}
         pagination={pagination}
-        title="All Posts"
+        title="全部文章"
       />
     </>
   )

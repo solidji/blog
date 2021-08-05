@@ -1,16 +1,22 @@
 ---
-name: Tails Azimuth
+name: SolidJi
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
+occupation: Programer/Father
+company: ECNU University
+email: goooajw@gmail.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
 github: https://github.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+80 后
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+码农--逆向工程、Ruby、Python、iOS、NodeJS、全栈
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+老玩家--暴雪早期全家桶、PlayStation、Steam
+
+不务正业--玩吉他、素描、公益、育儿
+
+看书--科幻、科学、哲学、通识、历史、数学
+
+听播客--一天世界、随机波动、小声喧哗、反派影评、忽左忽右、IT 公论、Casticle、talich 闲侃

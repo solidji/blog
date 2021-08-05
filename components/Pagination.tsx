@@ -1,3 +1,11 @@
+/*
+ * @Author: goooajw@gmail.com
+ * @Date: 2021-07-25 19:11:27
+ * @LastEditors: Solid Ji
+ * @LastEditTime: 2021-08-05 23:58:17
+ * @Description: Description
+ * @FilePath: /Blog/components/Pagination.tsx
+ */
 import Link from '@/components/Link'
 
 interface Props {
@@ -14,12 +22,12 @@ export default function Pagination({ totalPages, currentPage }: Props) {
       <nav className="flex justify-between">
         {!prevPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!prevPage}>
-            Previous
+            上一页
           </button>
         )}
         {prevPage && (
           <Link href={currentPage - 1 === 1 ? `/blog/` : `/blog/page/${currentPage - 1}`}>
-            <button>Previous</button>
+            <button>上一页</button>
           </Link>
         )}
         <span>
@@ -27,12 +35,12 @@ export default function Pagination({ totalPages, currentPage }: Props) {
         </span>
         {!nextPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!nextPage}>
-            Next
+            下一页
           </button>
         )}
         {nextPage && (
           <Link href={`/blog/page/${currentPage + 1}`}>
-            <button>Next</button>
+            <button>下一页</button>
           </Link>
         )}
       </nav>
